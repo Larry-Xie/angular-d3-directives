@@ -1,0 +1,373 @@
+<div ctx-line-chart ng-show="chartIndex == 1" height=300 config="{
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug']
+        },
+        yAxis: {
+            title: {
+                text: 'Temperature (°C)'
+            }
+        },
+        series: {
+            name: 'Tokyo',
+            data: [65, 85, 90, 100, 125, 87, 65, 40]
+        }
+    }"></div>
+
+<div ctx-spline-chart ng-show="chartIndex == 2" config="{
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        },
+        yAxis: {
+            title: {
+                text: 'Temperature (°C)'
+            }
+        },
+        series: [{
+            name: 'Tokyo',
+            data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+        }]
+    }"></div>
+
+<div ctx-spline-chart ng-show="chartIndex == 3" config="{
+		xAxis: {
+		    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+		        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+		},
+		yAxis: {
+		    title: {
+		        text: 'Temperature (°C)'
+		    }
+		},
+		series: [{
+		    name: 'Tokyo',
+		    data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+		},
+		{
+		    name: 'Beijing',
+		    data: [6.0, 7.9, 7, 13.5, 11.2, 31, 20.2, 26.5, 27.3, 8.3, 3.9, 19.6]
+		}]
+	}"></div>
+
+<div ctx-spline-chart ng-show="chartIndex == 4" config="{
+		xAxis: {
+		    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+		        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+		},
+		yAxis: {
+		    title: {
+		        text: 'Temperature (°C)'
+		    }
+		},
+		series: [{
+		    name: 'Tokyo',
+		    data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+		},
+		{
+		    name: 'Beijing',
+		    data: [6.0, 7.9, 7, 13.5, 11.2, 31, 20.2, 26.5, 27.3, 8.3, 3.9, 19.6]
+		},
+		{
+		    name: 'Nanjing',
+		    data: [9.0, 2.9, 17, 13.5, 22.2, 44, 2.2, 6.5, 37.3, 18.3, 31.9, 16.6]
+		}]
+	}"></div>
+
+<div ctx-spline-chart ng-show="chartIndex == 5" config="{
+		xAxis: {
+		    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+		        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+		},
+		yAxis: {
+		    title: {
+		        text: 'Temperature (°C)'
+		    }
+		},
+		series: [{
+		    name: 'Tokyo',
+		    data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+		},
+		{
+		    name: 'Beijing',
+		    data: [6.0, 7.9, 7, 13.5, 11.2, 31, 20.2, 26.5, 27.3, 8.3, 3.9, 19.6]
+		},
+		{
+		    name: 'Nanjing',
+		    data: [9.0, 2.9, 17, 13.5, 22.2, 44, 2.2, 6.5, 37.3, 18.3, 31.9, 16.6]
+		},
+		{
+		    name: 'Shanghai',
+		    data: [69.0, 21.9, 13, 53.5, 42.2, 24, 23.2, 16.5, 3.3, 78.3, 3.9, 6.6]
+		}]
+	}"></div> 
+
+<div ctx-spline-chart ng-show="chartIndex == 6" config="{
+	            xAxis: {
+	                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+	                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+	            },
+	            yAxis: {
+	                title: {
+	                    text: 'Temperature (°C)'
+	                }
+	            },
+	            series: [{
+	                name: 'Tokyo',
+	                data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+	            },
+	            {
+	                name: 'Beijing',
+	                data: [6.0, 7.9, 7, 13.5, 11.2, 31, 20.2, 26.5, 27.3, 8.3, 3.9, 19.6]
+	            },
+	            {
+	                name: 'Nanjing',
+	                data: [9.0, 2.9, 17, 13.5, 22.2, 44, 2.2, 6.5, 37.3, 18.3, 31.9, 16.6]
+	            },
+	            {
+	                name: 'Shanghai',
+	                data: [69.0, 21.9, 13, 53.5, 42.2, 24, 23.2, 16.5, 3.3, 78.3, 3.9, 6.6]
+	            },
+	            {
+	                name: 'Guangzhou',
+	                data: [9, 12, 25, 38, 21, 57, 43, 11, 6, 8, 64, 40]
+	            }]
+    }"></div> 
+
+<div ctx-bar-chart ng-show="chartIndex == 7" bar-height="30" bar-padding="5"
+     data="[{month: '2015-01',count: 12}, {month: '2015-02',count: 25}, {month: '2015-03',count: 41},
+            {month: '2015-04',count: 50}, {month: '2015-05',count: 65}, {month: '2015-06',count: 85}]
+	"></div>
+
+<div ctx-bar-stack ng-show="chartIndex == 8" config="{
+            categories: ['Server1', 'Server2', 'Server3', 'Server4', 'Server5', 'Server6'],
+            color: ['#A7C593', '#89B1BB'],
+            showTotal: true,
+            showLabel: true,
+            showLeftLabel: true,
+            leftLabelPadding: 8,
+            barPadding: 5,
+            barHeight: 30,
+            series: [
+                {
+                    name: 'Free',
+                    data: [100, 200, 300, 400, 500, 600]
+                },
+                {
+                    name: 'Paid',
+                    data: [100, 200, 300, 400, 500, 600]
+                }
+            ]
+	}"></div>
+
+<div ctx-bar-stack ng-show="chartIndex == 9" config="{
+            categories: ['Server1', 'Server2', 'Server3', 'Server4', 'Server5', 'Server6'],
+            showTotal: true,
+            showLabel: true,
+            showLeftLabel: true,
+            leftLabelPadding: 16,
+            barPadding: 5,
+            barHeight: 30,
+            border: 3,
+            series: [
+                {
+                    name: 'Free',
+                    data: [140, 280, 90, 40, 30, 85]
+                },
+                {
+                    name: 'Paid',
+                    data: [109, 800, 200, 600, 250, 364]
+                }
+            ]
+	}"></div>
+
+<div ctx-bar-stack ng-show="chartIndex == 10" config="{
+            categories: ['Server1', 'Server2', 'Server3', 'Server4', 'Server5', 'Server6'],
+            color: ['#A7C593', '#89B1BB'],
+            showTotal: true,
+            showLabel: true,
+            barPadding: 5,
+            barHeight: 30,
+            series: [
+                {
+                    name: 'Free',
+                    data: [100, 200, 270, 500, 450, 354]
+                },
+                {
+                    name: 'Paid',
+                    data: [190, 200, 500, 40, 58, 120]
+                },
+                {
+                    name: 'Trail',
+                    data: [110, 201, 30, 410, 321, 120]
+                }
+            ]
+	}"></div>
+
+<div ctx-bar-stack ng-show="chartIndex == 11" config="{
+            categories: ['Server1', 'Server2', 'Server3', 'Server4', 'Server5', 'Server6'],
+            showTotal: false,
+            border: 4,
+            barPadding: 5,
+            barHeight: 30,
+            series: [
+                {
+                    name: 'Free',
+                    data: [155, 200, 210, 121, 25, 360]
+                },
+                {
+                    name: 'Paid',
+                    data: [100, 290, 150, 251, 127, 78]
+                },
+                {
+                    name: 'Trail',
+                    data: [160, 201, 58, 210, 150, 90]
+                }
+            ]
+	}"></div>
+
+<div ctx-bar-stack ng-show="chartIndex == 12" config="{
+			            categories: ['Server1', 'Server2', 'Server3', 'Server4', 'Server5', 'Server6'],
+			            showTotal: true,
+			            showLabel: true,
+			            border: 4,
+			            barPadding: 5,
+			            barHeight: 30,
+			            series: [
+			                {
+			                    name: 'Free',
+			                    data: [50, 150, 200, 210, 150, 90]
+			                },
+			                {
+			                    name: 'Paid',
+			                    data: [100, 200, 50, 250, 25, 70]
+			                },
+			                {
+			                    name: 'Trail',
+			                    data: [150, 280, 150, 120, 120, 280]
+			                }
+			            ]
+	}"></div>
+
+<div ctx-pie-chart ng-show="chartIndex == 13" data="[{name: 'FireFox', y: 28}]"></div>
+
+<div ctx-pie-chart ng-show="chartIndex == 14" data="[ {name: 'Sarifi', y: 53}, {name: 'FireFox', y: 28}]"></div>
+
+<div ctx-pie-chart ng-show="chartIndex == 15" data="[{name: 'IE', y: 30}, {name: 'Sarifi', y: 53}, {name: 'FireFox', y: 28}]"></div>
+
+<div ctx-pie-chart ng-show="chartIndex == 16" data="[{name: 'Chrome', y: 10}, {name: 'IE', y: 30}, {name: 'Sarifi', y: 53}, {name: 'FireFox', y: 28}]"></div>
+
+<div ctx-pie-chart ng-show="chartIndex == 17" data="[{name: 'Chrome', y: 90}, {name: 'Chrome', y: 15},  {name: 'IE', y: 30}, {name: 'Sarifi', y: 53}, {name: 'FireFox', y: 28}]"></div>
+
+<div ctx-pie-chart ng-show="chartIndex == 18" data="[{name: 'Chrome', y: 10}, {name: 'Chrome', y: 90}, {name: 'Chrome', y: 15},  {name: 'IE', y: 30}, {name: 'Sarifi', y: 53}, {name: 'FireFox', y: 28}]"></div>
+
+<div ctx-bar-column ng-show="chartIndex == 19" config="{
+    yAxis: {
+        title: 'Number of License Server',
+        padding: -10
+    },
+    categories: ['Server1', 'Server22', 'Server333', 'Server4444x'],
+    series: [90, 210, 320, 1390]
+}"></div>
+
+<div ctx-bar-column ng-show="chartIndex == 20" config="{
+    yAxis: {
+        title: 'Number of License Server',
+        padding: -10
+    },
+    categories: ['Server1', 'Server22', 'Server333', 'Server4444xx'],
+    series: [900, 290, 520, 190]
+}"></div>
+
+<div ctx-bar-column ng-show="chartIndex == 21" config="{
+    yAxis: {
+        title: 'Number of License Server',
+        padding: -10
+    },
+    categories: ['Server1', 'Server22', 'Server333', 'Server4444xxx'],
+    series: [
+                {
+                    name: 'Free',
+                    data: [100, 200, 300, 400]
+                },
+                {
+                    name: 'Paid',
+                    data: [100, 200, 300, 400]
+                }
+            ]
+}"></div>
+
+<div ctx-bar-column ng-show="chartIndex == 22" config="{
+    yAxis: {
+        title: 'Number of License Server',
+        padding: -10
+    },
+    categories: ['Server1', 'Server22', 'Server333', 'Server4444xxxxx'],
+    series: [
+                {
+                    name: 'Free',
+                    data: [510, 120, 340, 460]
+                },
+                {
+                    name: 'Paid',
+                    data: [804, 314, 435, 872]
+                }
+            ]
+}"></div>
+
+<div ctx-bar-column ng-show="chartIndex == 23" config="{
+    yAxis: {
+        title: 'Number of License Server',
+        padding: -10
+    },
+    margin: { left: 40, top: 20, right: 40, bottom: 30 },
+    categories: ['Server1', 'Server22', 'Server333', 'Server4444', 'Server5555', 'Server6', 'Server7', 'Server8', 'Server9', 'Server10', 'Server11'],
+    series: [
+                {
+                    name: 'Free',
+                    data: [510, 120, 340, 460, 23, 45, 87, 23, 434, 541, 99]
+                },
+                {
+                    name: 'Paid',
+                    data: [804, 314, 435, 872, 345, 992, 234, 457, 234, 212, 88]
+                },
+                {
+                    name: 'Unpaid',
+                    data: [804, 314, 435, 872, 345, 992, 234, 457, 234, 212, 88]
+                }
+            ]
+}"></div>
+
+<div ctx-bar-column ng-show="chartIndex == 24" config="{
+    yAxis: {
+        title: 'Number of License Server',
+        padding: -10
+    },
+    margin: { left: 40, top: 20, right: 40, bottom: 30 },
+    categories: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'],
+    series: [
+                {
+                    name: 'Free',
+                    data: [510, 120, 340, 460, 23, 45, 87, 23, 434, 541, 99]
+                },
+                {
+                    name: 'Paid',
+                    data: [804, 314, 435, 872, 345, 992, 234, 457, 234, 212, 88]
+                },
+                {
+                    name: 'Unpaid',
+                    data: [804, 314, 435, 872, 345, 992, 234, 457, 234, 212, 88]
+                }
+            ]
+}"></div>
+
+<div ctx-pack-chart ng-show="chartIndex == 25" config=packConfig1 align="center"></div>
+
+<div ctx-pack-chart ng-show="chartIndex == 26" config=packConfig2 align="center"></div>
+
+<div ctx-tree-chart ng-show="chartIndex == 27" config=treeConfig1 align="center"></div>
+
+<div ctx-tree-chart ng-show="chartIndex == 28" config=treeConfig2 align="center"></div>
+
+<div ctx-force-chart ng-show="chartIndex == 29" config=forceConfig1 align="center"></div>
+
+<div ctx-force-chart ng-show="chartIndex == 30" config=forceConfig2 align="center"></div>

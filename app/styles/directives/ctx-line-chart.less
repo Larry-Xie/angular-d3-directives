@@ -1,0 +1,65 @@
+.line-svg {
+  width: 100%;
+  background: #ffffff;
+}
+
+.line-axis path{
+  stroke-width: 0;
+  fill: none;
+}
+
+.line-axis text {
+  font-size: 14px;
+  font-style: normal;
+  font-family: citrixsans-regular;
+  color: #8794aa;
+  line-height: 14.4px;
+}
+
+.line-axis line {
+  stroke: #e9e9ea !important;
+  stroke-width: 1px !important;
+}
+
+.line-line {
+  fill: none;
+  stroke: #3a97da;
+  stroke-width: 2;
+}
+
+.line-dot {
+  fill: #ffffff;
+  stroke: #3a97da;
+  stroke-width: 2px;
+  cursor: pointer;
+}
+
+.line-dot:hover {
+  fill: #3a97da;
+}
+
+.line-tooltip {
+  position: absolute !important;
+  text-align: center;
+  color: #ffffff;
+  padding: 8px 10px;
+  font-size: 12px;
+  font-family: citrixsans-regular;
+  background: #393f4d;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  pointer-events: none;
+}
+
+.line-tooltip:after {
+  content:"";
+  position: absolute;
+  top: 100%;
+  left: 50% - 10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0 8px;
+  border-color: #393f4d transparent transparent transparent;
+}

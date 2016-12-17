@@ -1,0 +1,23 @@
+{
+  "predef": ["app", "angular", "manifest"],
+  "bitwise": false,
+  "browser": true,
+  "curly": true,
+  "eqeqeq": true,
+  "esnext": true,
+  "indent": 4,
+  "latedef": true,
+  "loopfunc": true,
+  "noarg": true,
+  "node": true,
+  "quotmark": "single",
+  "smarttabs": true,
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "globals": {
+    "angular": false,
+    "app": true,
+    "manifest": true
+  }
+}
